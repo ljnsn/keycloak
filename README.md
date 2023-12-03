@@ -41,7 +41,7 @@ This port is based on the [`keywind`](https://github.com/lukin/keywind) theme fo
 ## Usage
 
 1. Clone this repository locally
-2. Build the JAR archive by following the [build](#-build) instructions below
+2. Build the JAR archive by following the [build](#build) instructions below
 3. Copy the archive to the keycloak `providers/` directory
 4. Build and start keycloak
 5. Select your flavour in the admin console
