@@ -1,6 +1,10 @@
 {
   "themes": [
     {
+      "name": "catppuccin",
+      "types": ["login"]
+    },
+    {
       "name": "catppuccin-latte",
       "types": ["login"]
     },
