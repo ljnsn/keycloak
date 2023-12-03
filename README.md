@@ -31,7 +31,7 @@
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/ljnsn/keycloak/main/assets/mocha.png"/>
+<img src="https://raw.githubusercontent.com/ljnsn/keycloak/main/assets/preview-mocha.png"/>
 </details>
 
 ## Usage
