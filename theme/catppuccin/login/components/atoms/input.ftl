@@ -29,7 +29,7 @@
       </#list>
     >
     <#if invalid?? && message??>
-      <div class="mt-2 text-red-600 text-sm">
+      <div class="mt-2 text-red text-sm">
         ${message?no_esc}
       </div>
     </#if>
