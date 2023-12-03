@@ -34,12 +34,32 @@
 <img src="https://raw.githubusercontent.com/ljnsn/keycloak/main/assets/preview-mocha.png"/>
 </details>
 
+## Attribution
+
+This port is based on the [`keywind`](https://github.com/lukin/keywind) theme for Keycloak, thanks a lot!
+
 ## Usage
 
 1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+2. Build the JAR archive by following the [build](#-build) instructions below
+3. Copy the archive to the keycloak `providers/` directory
+4. Build and start keycloak
+5. Select your flavour in the admin console
+
+## Build
+
+When you're ready to deploy your own theme, run the build command to generate a static production build.
+
+```bash
+pnpm install
+pnpm build
+```
+
+To deploy a theme as an archive, create a JAR archive with the theme resources.
+
+```bash
+pnpm build:jar
+```
 
 <!-- this section is optional -->
 ## 🙋 FAQ
@@ -50,6 +70,7 @@
 ## 💝 Thanks to
 
 - [ljnsn](https://github.com/ljnsn)
+- [lukin](https://github.com/lukin)
 
 &nbsp;
 

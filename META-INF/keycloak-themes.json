@@ -1,0 +1,20 @@
+{
+  "themes": [
+    {
+      "name": "catppuccin-latte",
+      "types": ["login"]
+    },
+    {
+      "name": "catppuccin-frappe",
+      "types": ["login"]
+    },
+    {
+      "name": "catppuccin-macchiato",
+      "types": ["login"]
+    },
+    {
+      "name": "catppuccin-mocha",
+      "types": ["login"]
+    }
+  ]
+}
