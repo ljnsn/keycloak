@@ -4,7 +4,7 @@
       <#assign colorClass="bg-mauve text-base focus:ring-mauve hover:bg-pink">
       <#break>
     <#case "secondary">
-      <#assign colorClass="bg-surface0 text-subtext0 focus:ring-subtext0 hover:bg-surface2 hover:text-text">
+      <#assign colorClass="bg-crust text-subtext0 focus:ring-subtext0 hover:bg-surface2 hover:text-text">
       <#break>
     <#default>
       <#assign colorClass="bg-mauve text-base focus:ring-mauve hover:bg-pink">
